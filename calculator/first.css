@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    width: 25%;
+    margin: auto;
+    padding: 0px 10px 10px 10px;
+    /* box-shadow: inset -2px -2px 50px rgb(105, 96, 96),
+                      2px 2px 20px rgb(15, 15, 15); */
+    margin-top:20vh;
+    /* background-color: blueviolet; */
+    display: grid;
+    gap: 5px;
+    height: 60vh;
+    border-radius: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.input{
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 10px rgb(31, 27, 27),
+    5px 5px 20px rgb(0, 0, 0);
+    height: 8vh;
+    text-align: end;
+    font-size:larger;
+    padding-right: 10px;
+    border: none;
+    /* background-color: aqua; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 10px 3px 0px 3px;
+}
+.equal{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(21, 255, 0) !important;
+}
+.button{
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    /* border: none; */
+    /* box-sizing: border-box; */
+}
+
+.clear{
+    color: yellow;
+    font-size: larger;
+
+}
+.delete{
+    color: red;
+    font-size: larger;
+}
